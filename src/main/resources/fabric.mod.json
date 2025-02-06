@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "furnis-names-shall-be-respected",
+  "version": "${version}",
+  "name": "Furnish Names Shall Be Respected",
+  "description": "Use server name instead of mojang names for furnish letters",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/furnis-names-shall-be-respected/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "codes.dreaming.furnisNamesShallBeRespected.client.FurnisNamesShallBeRespectedClient"
+    ],
+    "main": [
+      "codes.dreaming.furnisNamesShallBeRespected.FurnisNamesShallBeRespected"
+    ]
+  },
+  "mixins": [
+    "furnis-names-shall-be-respected.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
