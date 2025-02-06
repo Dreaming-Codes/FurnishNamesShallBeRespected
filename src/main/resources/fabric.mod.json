@@ -8,15 +8,8 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/furnis-names-shall-be-respected/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "codes.dreaming.furnisNamesShallBeRespected.client.FurnisNamesShallBeRespectedClient"
-    ],
-    "main": [
-      "codes.dreaming.furnisNamesShallBeRespected.FurnisNamesShallBeRespected"
-    ]
-  },
+  "environment": "CLIENT",
+  "entrypoints": {},
   "mixins": [
     "furnis-names-shall-be-respected.mixins.json"
   ],
